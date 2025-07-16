@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 interface NavbarProps {
   currentPage?: string;
 }
@@ -19,32 +21,32 @@ export default function Navbar({ currentPage = '' }: NavbarProps) {
           {/* Logo Section */}
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <a href="/" className="flex items-center">
+              <Link href="/" className="flex items-center">
                 <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-xl">L</span>
                 </div>
                 <span className="ml-3 text-xl font-semibold text-gray-900">
                   Galaxy Of Games
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="/" className={getLinkClass('home')}>
+              <Link href="/" className={getLinkClass('home')}>
                 Home
-              </a>
-              <a href="/about" className={getLinkClass('about')}>
+              </Link>
+              <Link href="/about" className={getLinkClass('about')}>
                 About
-              </a>
-              <a href="/services" className={getLinkClass('services')}>
+              </Link>
+              <Link href="/services" className={getLinkClass('services')}>
                 Services
-              </a>
-              <a href="/contact" className={getLinkClass('contact')}>
+              </Link>
+              <Link href="/contact" className={getLinkClass('contact')}>
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 

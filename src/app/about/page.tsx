@@ -25,7 +25,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4">
               Founded in 2020, we started with a simple mission: to create amazing digital experiences 
-              that make people's lives better. What began as a small team with big dreams has grown 
+              that make people&apos;s lives better. What began as a small team with big dreams has grown 
               into a thriving company serving thousands of customers worldwide.
             </p>
             <p className="text-gray-600">
@@ -72,7 +72,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality</h3>
               <p className="text-gray-600">
-                We're committed to delivering excellence in everything we do, from code to customer service.
+                We&apos;re committed to delivering excellence in everything we do, from code to customer service.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function About() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">John Doe</h3>
               <p className="text-blue-600 font-medium mb-2">CEO & Founder</p>
               <p className="text-gray-600 text-sm">
-                Passionate about creating innovative solutions that make a real difference in people's lives.
+                Passionate about creating innovative solutions that make a real difference in people&apos;s lives.
               </p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -112,7 +112,7 @@ export default function About() {
         {/* Call to Action */}
         <div className="bg-blue-600 rounded-2xl p-8 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Ready to work with us?</h2>
-          <p className="text-xl text-blue-100 mb-6">Let's create something amazing together.</p>
+          <p className="text-xl text-blue-100 mb-6">Let&apos;s create something amazing together.</p>
           <a href="/contact" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Get In Touch
           </a>

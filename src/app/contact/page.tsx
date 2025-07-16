@@ -15,7 +15,7 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ready to start your project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Ready to start your project? We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.
           </p>
         </div>
 
@@ -269,7 +269,7 @@ export default function Contact() {
           <div className="space-y-6">
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">How long does a typical project take?</h3>
-              <p className="text-gray-600">Project timelines vary depending on scope and complexity. A simple website typically takes 2-4 weeks, while complex applications can take 3-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+              <p className="text-gray-600">Project timelines vary depending on scope and complexity. A simple website typically takes 2-4 weeks, while complex applications can take 3-6 months. We&apos;ll provide a detailed timeline during our initial consultation.</p>
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Do you offer ongoing support after launch?</h3>
@@ -277,10 +277,10 @@ export default function Contact() {
             </div>
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Can you work with our existing brand guidelines?</h3>
-              <p className="text-gray-600">Absolutely! We love working with established brands and can design within your existing brand guidelines. If you don't have brand guidelines yet, we can help develop them as part of our design process.</p>
+              <p className="text-gray-600">Absolutely! We love working with established brands and can design within your existing brand guidelines. If you don&apos;t have brand guidelines yet, we can help develop them as part of our design process.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">What's included in your pricing?</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">What&apos;s included in your pricing?</h3>
               <p className="text-gray-600">Our pricing includes design, development, testing, and deployment. We also include a certain number of revisions and post-launch support. Specific inclusions vary by package - check our Services page for detailed information.</p>
             </div>
           </div>
@@ -289,7 +289,7 @@ export default function Contact() {
         {/* Call to Action */}
         <div className="bg-blue-600 rounded-2xl p-8 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Ready to start your project?</h2>
-          <p className="text-xl text-blue-100 mb-6">Let's turn your ideas into reality. Get in touch today!</p>
+          <p className="text-xl text-blue-100 mb-6">Let&apos;s turn your ideas into reality. Get in touch today!</p>
           <a href="mailto:hello@yourwebsite.com" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
             Send us an Email
           </a>

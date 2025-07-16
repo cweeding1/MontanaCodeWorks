@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -15,28 +17,28 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-              <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="/services" className="hover:text-white transition-colors">Services</a></li>
-              <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
+              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Documentation</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">GitHub</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Email</a></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Twitter</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">LinkedIn</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">GitHub</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Email</Link></li>
             </ul>
           </div>
         </div>
