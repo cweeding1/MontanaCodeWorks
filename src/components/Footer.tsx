@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-brand-blue rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">L</span>
               </div>
               <span className="ml-2 text-lg font-semibold">Galaxy of Games</span>
